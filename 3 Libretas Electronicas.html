@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Presentacion</title>
+    <link rel="stylesheet"  href="estilos.css">
+    <meta name="descripcion" content="Mi Block"/>
+    <meta name="keywords" content="Mi, Block"/>
+
+    <link rel="index"  href="/" title="Inicio">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background: #f2fefe url("Imgs/fondo.gif") 0 0 repeat-x;
+            font: 100%/160% "verdena", sans-serif;
+            color: #4F6AD7;
+        }
+        a{
+            color: #192666;
+        }
+        p{
+            margin: 1px;
+            padding: 1px;
+        }
+        .clear{
+            clear: both;
+        }
+        h1, h2, h3, h4, h5{
+            margin: 1em 0;
+            padding: 0;
+        }
+        h1{
+            font-size: 260%;
+            font-family: "georgia", serif;
+            font-weight: normal;
+            color: #B5C4E3;
+        }
+        h2{
+            font-size: 180%;
+            font-family: "georgia", serif;
+            font-weight: normal;
+            color: #192666;
+        }
+        h3{
+            font-size: 120%;
+            font-weight: bold;
+            color: black;
+        }
+        ul, ol{
+            margin: 1em 0 1em 2em;
+            padding: 0;
+        }
+        #cuerpo{
+            width: 1200px;
+            margin: 40px auto 0 auto;
+        }
+        #cabeza{
+            text-align: center;
+            background: #fff;
+
+        }
+        #cabeza ul{
+            margin: 10px 250px;
+            padding: 0;
+            list-style: none;
+        }
+        #cabeza ul li{
+            margin: 0 5px 0 0;
+            padding: 0;
+            float: left;
+        }
+        #cabeza ul li a{
+            display: block;
+            position: relative;
+            padding: 5px 15px;
+            border: 0;
+            background: #f2fefe;
+            color: #B5C4E3;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #cabeza ul li a:lover{
+            background: #31279B;
+        }
+        #cabeza ul li.seleccionado a{
+            background: #fff;
+            color: #ff9000;
+            clear: both;
+        }
+        #contenido #parte1{
+            clear: both;
+            float: left;
+            width: 400px;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+        }
+        #contenido #parte1 img{
+            border: 2px solid #ddd;
+            padding: 5px;
+            margin: 10px 10px;
+            width: 100px;
+        }
+        #contenido #parte2{
+            float: left;
+            width: 400px;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+            text-align: center;
+        }
+        #contenido #parte2 #table tr{
+            list-style: none;
+        }
+        #contenido #parte2 #table tr td{
+            margin: 0 0 5px 0;
+            padding: 1px;
+        }
+        #contenido #parte2 #table tr td a{
+            display: block;
+            color: #B5C4E3;
+            padding: 0 0 0 0;
+
+        }
+        #contenido #parte2 #table tr td a:lover{
+            background: #31279B;
+        }
+        #contenido #parte3{
+            float: left;
+            width: 400px;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+            text-align: center;
+        }
+        #contenido #parte3 img{
+            border: 2px solid #ddd;
+            padding: 5px;
+            margin: 10px 10px;
+            width: 100px;
+        }
+        #pie{
+            clear: both;
+            background: #f2fefe;
+            text-align: center;
+        }
+
+          
+    </style>
+</head>
+<body>
+    <div id="cuerpo">
+        <div id="cabeza">
+            <h1>Libretas Electronicas</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="1 Plantel Docente.html">Plantel Docente</a></li>
+                <li><a href="2 Grados.html">Grados</a></li>
+                <li class="seleccionado"><a href="3 Libretas Electronicas.html">Libreta Electronica</a></li>
+                <li><a href="4 Informacion.html">Informacion</a></li>
+            </ul>
+        </div> 
+
+        <div id="contenido">
+
+            <div id="parte1">
+                <img src="Img/a.jpg">
+                <img src="Img/b.jpg">
+                <img src="Img/c.jpg">
+                <img src="Img/sd.jpg">
+                <img src="Img/a.jpg">
+                <img src="Img/b.jpg">
+                <img src="Img/c.jpg">
+                <img src="Img/sd.jpg">
+            </div>
+
+            <div id="parte2">
+                 <h2>Llenar Datos Para que le Enviemos su Libreta Electronica</h2>
+                 <form action="" method="post" id="datos">
+                 <table>
+                    <tr>
+                        <td>Nombres</td>
+                        <td><input type="text" name="nombres"></td>
+                    </tr>
+                    <tr>
+                        <td>Apellidos</td>
+                        <td><input type="text" name="apellidos"></td>
+                    </tr>
+                    <tr>
+                        <td>Carnet</td>
+                        <td><input type="number" name="carnet"></td>
+                    </tr>
+                    <tr>
+                        <td>Ext</td>
+                        <td><select name="ext">
+                                <option value="1">La Paz</option>
+                                <option value="2">Santa Cruz</option>
+                                <option value="3">Cochabamba</option>
+                                <option value="4">Oruro</option>
+                                <option value="5">Potosi</option>
+                                <option value="6">tarija</option>
+                                <option value="7">Beni</option>
+                            </select></td>
+                        </tr>
+                        <td>Curso</td>
+                        <td><select name="curso">
+                                <option value="1">1ºPrimeros de Segundaria</option>
+                                <option value="2">2ºSegundos de Segundaria</option>
+                                <option value="3">3ºTerceros de Segundaria</option>
+                                <option value="4">4ºCuartos de Segundaria</option>
+                                <option value="5">5ºQuinto de Segundaria</option>
+                                <option value="5">6ºSexto de Segundaria</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Sexo</td>
+                            <td><input type="radio" name="sexo" value="1">HOMBRE
+                            <br>
+                            <input type="radio" name="sexo" value="2">MUJER</td>
+                        </tr>
+                        <tr>
+                            <td>Observaciones</td>
+                            <td><textarea name="observaciones"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="Enviar"></td>
+                        </tr>
+                 </table>
+                    
+                 </form>
+            </div>
+
+            <div id="parte3">
+                <img src="Img/a.jpg">
+                <img src="Img/b.jpg">
+                <img src="Img/c.jpg">
+                <img src="Img/sd.jpg">
+                <img src="Img/a.jpg">
+                <img src="Img/b.jpg">
+                <img src="Img/c.jpg">
+                <img src="Img/sd.jpg">
+            </div>
+
+        </div>
+
+        <div id="pie">
+            <h2>Bienbenidos a la Pagina Oficial del Colegio "DR. Aniceto Arce"</h2></br>
+        </div>
+    </div>
+</body>
+</html>

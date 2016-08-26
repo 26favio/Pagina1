@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Presentacion</title>
+    <link rel="stylesheet"  href="estilos.css">
+    <meta name="descripcion" content="Mi Block"/>
+    <meta name="keywords" content="Mi, Block"/>
+
+    <link rel="index"  href="/" title="Inicio">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background: #f2fefe url("Imgs/fondo.gif") 0 0 repeat-x;
+            font: 100%/160% "verdena", sans-serif;
+            color: #4F6AD7;
+        }
+        a{
+            color: #192666;
+        }
+        p{
+            margin: 1px;
+            padding: 1px;
+        }
+        .clear{
+            clear: both;
+        }
+        h1, h2, h3, h4, h5{
+            margin: 1em 0;
+            padding: 0;
+        }
+        h1{
+            font-size: 260%;
+            font-family: "georgia", serif;
+            font-weight: normal;
+        }
+        h2{
+            font-size: 180%;
+            font-family: "georgia", serif;
+            font-weight: normal;
+            color: #192666;
+        }
+        h3{
+            font-size: 120%;
+            font-weight: bold;
+        }
+        h4{
+            font-size: 120%;
+            font-weight: bold;
+        }
+        ul, ol{
+            margin: 1em 0 1em 2em;
+            padding: 0;
+        }
+        p{
+            font-size: 100%;
+            font-weight: bolder;
+        }
+        #cuerpo{
+            width: 1200px;
+            margin: 40px auto 0 auto;
+        }
+        #cabeza{
+            text-align: center;
+            background: #fff;
+
+        }
+        #cabeza ul{
+            margin: 10px 250px;
+            padding: 0;
+            list-style: none;
+        }
+        #cabeza ul li{
+            margin: 0 5px 0 0;
+            padding: 0;
+            float: left;
+        }
+        #cabeza ul li a{
+            display: block;
+            position: relative;
+            padding: 5px 15px;
+            border: 0;
+            background: #f2fefe;
+            color: #B5C4E3;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #cabeza ul li a:lover{
+            background: #31279B;
+        }
+        #cabeza ul li.seleccionado a{
+            background: #fff;
+            color: #ff9000;
+        }
+        #contenido1{
+            float: left;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+            text-align: center;
+        }
+        #contenido2{
+            float: left;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+        }
+        #contenido2 #parte1{
+            float: left;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+            width: 600px;
+        }
+        #contenido2 #parte2{
+            float: left;
+            margin: 1em 0;
+            padding: 0 0 0 2;
+            background: #f6f6f6;
+            width: 600px;
+        }
+        #contenido2 #parte2 img{
+            border: 2px solid #ddd;
+            padding: 5px;
+            margin: 10px 10px;
+            width: 450px;
+        }
+        #pie{
+            clear: both;
+            background: #f2fefe;
+        }
+        #pie h3{
+            text-align: center;
+        }
+        #pie #table{
+            background: #f2fefe;
+            text-align: center;
+        }
+        #pie #table img{
+            border: 2px solid #ddd;
+            padding: 5px;
+            margin: 10px 10px;
+            width: 50px;
+        }
+        #pie #table tr{
+            list-style: none;
+        }
+        #pie #table tr td{
+            margin: 0 0 5px 0;
+            padding: 1px;
+        }
+        #pie #table tr td a{
+            display: block;
+            color: #B5C4E3;
+            padding: 0 0 0 0;
+
+        }
+        #pie #table tr td a:lover{
+            background: #31279B;
+        }
+    </style>
+</head>
+<body>
+    <div id="cuerpo">
+        <div id="cabeza">
+            <h1>Informacion</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="1 Plantel Docente.html">Plantel Docente</a></li>
+                <li><a href="2 Grados.html">Grados</a></li>
+                <li><a href="3 Libretas Electronicas.html">Libreta Electronica</a></li>
+                <li class="seleccionado"><a href="4 Informacion.html">Informacion</a></li>
+            </ul>
+        </div>
+        <div id="contenido1">
+           
+            <h2>VISION </h2> 
+            <p>
+            Brindar una educación participativa, democrática, autónoma y eficiente en los estudiantes hacia una formación integral en los diferentes niveles, formando estudiantes seguros, críticos, reflexivos y activos, con competencias y destrezas que les permitan proseguir estudios superiores y mejorar el bienestar de la comunidad. </p>
+
+            <h2>MISIÓN</h2>
+
+            <p>Mejorar la educación mediante la aplicación de nuevas estrategias y corrientes pedagógico formando estudiantes críticos, reflexivos, activos, participativos, cooperativos y productivos optimizando la comprensión lectora y la resolución de problemas matemáticos,  aprovechando recursos del medio, con docentes calificados capaces de desarrollar capacidades, destrezas y valorar acorde a las necesidades socioculturales y lingüísticas de la comunidad educativa.</p>
+
+        </div>
+        <div id="contenido2">
+
+            <div id="parte1">
+                <table>
+                    <tr>
+                        <td><h3>Tipo de Consulta</h3></td>
+                        <td><SELECT name="consulta">
+                                <OPTION VALUE="1">Como me Inscribo</OPTION>
+                                <OPTION VALUE="2">Como me Traslado</OPTION>
+                                <OPTION VALUE="3">Como ver mis Horarios</OPTION>
+                                <OPTION VALUE="4">Que Cursos Tienen Cupo</OPTION>
+                                <OPTION VALUE="5">Como Participar en los Plurinacionales</OPTION>
+                            </SELECT>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Haga su Comentario aqui:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><form method="get" action="#">
+                <input type="submit" value="Enviar" />
+            </form></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="parte2">
+                <img src="Img/sd.jpg">
+            </div>
+        </div>
+        <div id="pie">
+
+            <h3>Bienbenidos a la Pagina Oficial del Colegio "DR. Aniceto Arce"</h3></br>
+            <table id="table">
+            <h4>Tambien nos encuentras en:</h4>
+            <tr>
+                <td><IMG SRC="Img/like.jpg" ></td>
+                <td><IMG SRC="Img/face.jpg" ></td>
+                <td><IMG SRC="Img/gogle.jpg" ></td>
+                <td><IMG SRC="Img/Istagram.jpg" ></td>
+                <td><IMG SRC="Img/twiter.jpg" ></td>
+            </tr>
+            <tr>
+                <td><a href="#">Dale Like</a> </td>
+                <td><a href="#">Faceboock</a></td>
+                <td><a href="#">Mi Correo</a></td>
+                <td><a href="#">Istagram</a></td>
+                <td><a href="#">twiter</a></td>
+            </tr>
+        </table>
+        </div>
+
+    </div>
+</body>
+</html>
